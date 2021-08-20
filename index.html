@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Sunnyside agency landing page</title>
+  </head>
+  <body>
+    <section class="header" id="home_section">
+      <header>
+        <img src="images/logo.svg" alt="logo" class="logo" />
+        <nav class="navbar">
+          <ul class="nav-links">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Projects</a></li>
+          </ul>
+          <button>contact</button>
+        </nav>
+        <button class="hamburger">
+          <img src="images/icon-hamburger.svg" alt="hamburger" />
+        </button>
+      </header>
+      <h1 class="header_title">We are creatives</h1>
+      <a class="arrow_down" href="#feature_section"
+        ><img src="images/icon-arrow-down.svg" alt="arrow-down"
+      /></a>
+      <div class="backdrop" />
+    </section>
+
+    <main>
+      <section class="feature" id="feature_section">
+        <div>
+          <article>
+            <div>
+              <h2>Transform your brand</h2>
+              <p>
+                We are a full-service creative agency specializing in helping
+                brands grow fast. Engage your clients through compelling visuals
+                that do most of the marketing for you.
+              </p>
+              <button>LEARN MORE</button>
+            </div>
+          </article>
+          <picture>
+            <source
+              media="(max-width:768px)"
+              srcset="images/mobile/image-transform.jpg"
+            />
+            <img src="images/desktop/image-transform.jpg" alt="Flowers" />
+          </picture>
+        </div>
+        <div>
+          <picture>
+            <source
+              media="(max-width:768px)"
+              srcset="images/mobile/image-stand-out.jpg"
+            />
+            <img src="images/desktop/image-stand-out.jpg" alt="Flowers" />
+          </picture>
+          <article>
+            <div>
+              <h2>Stand out to the right audience</h2>
+              <p>
+                Using a collaborative formula of designers, researchers,
+                photographers, videographers, and copywriters, we’ll build and
+                extend your brand in digital places.
+              </p>
+              <button>LEARN MORE</button>
+            </div>
+          </article>
+        </div>
+        <div>
+          <div>
+            <article>
+              <h2>Graphic Design</h2>
+              <p>
+                Great design makes you memorable. We deliver artwork that
+                underscores your brand message and captures potential clients’
+                attention.
+              </p>
+            </article>
+          </div>
+          <div>
+            <article>
+              <h2>Photography</h2>
+              <p>
+                Increase your credibility by getting the most stunning,
+                high-quality photos that improve your business image.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="testimonials">
+        <h2>CLIENT TESTIMONIALS</h2>
+        <div class="testimonials_container">
+          <article>
+            <img src="images/image-emily.jpg" alt="emily" />
+            <p>
+              We put our trust in Sunnyside and they delivered, making sure our
+              needs were met and deadlines were always hit
+            </p>
+            <h3>Emily R.</h3>
+            <p>Marketing Director</p>
+          </article>
+          <article>
+            <img src="images/image-thomas.jpg" alt="emily" />
+            <p>
+              Sunnyside’s enthusiasm coupled with their keen interest in our
+              brand’s success made it a satisfying and enjoyable experience.
+            </p>
+            <h3>Thomas S.</h3>
+            <p>Chief Operating Officer</p>
+          </article>
+          <article>
+            <img src="images/image-jennie.jpg" alt="emily" />
+            <p>
+              Incredible end result! Our sales increased over 400% when we
+              worked with Sunnyside. Highly recommended!
+            </p>
+            <h3>Jennie F.</h3>
+            <p>Business Owner</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="gallery_images">
+        <picture
+          ><source
+            media="(max-width:768px)"
+            srcset="images/mobile/image-gallery-cone.jpg" />
+          <img src="images/desktop/image-gallery-cone.jpg" alt="Flowers"
+        /></picture>
+        <picture
+          ><source
+            media="(max-width:768px)"
+            srcset="images/mobile/image-gallery-milkbottles.jpg" />
+          <img src="images/desktop/image-gallery-milkbottles.jpg" alt="Flowers"
+        /></picture>
+        <picture
+          ><source
+            media="(max-width:768px)"
+            srcset="images/mobile/image-gallery-orange.jpg" />
+          <img src="images/desktop/image-gallery-orange.jpg" alt="Flowers"
+        /></picture>
+        <picture
+          ><source
+            media="(max-width:768px)"
+            srcset="images/mobile/image-gallery-sugar-cubes.jpg" />
+          <img src="images/desktop/image-gallery-sugarcubes.jpg" alt="Flowers"
+        /></picture>
+      </section>
+    </main>
+    <section class="footer">
+      <footer>
+        <img src="images/logo-footer.svg" alt="logo" />
+        <ul class="links">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Projects</a></li>
+        </ul>
+        <ul class="socials">
+          <li>
+            <a href="#"
+              ><img src="images/icon-facebook.svg" alt="facebook"
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img src="images/icon-instagram.svg" alt="instagram"
+            /></a>
+          </li>
+          <li>
+            <a href="#"><img src="images/icon-twitter.svg" alt="twitter" /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img src="images/icon-pinterest.svg" alt="pinterest"
+            /></a>
+          </li>
+        </ul>
+      </footer>
+    </section>
+  </body>
+
+  <script src="p.js"></script>
+</html>
